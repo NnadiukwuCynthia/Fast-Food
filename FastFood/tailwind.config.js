@@ -17,6 +17,7 @@ export default {
         'gold': '#FFD700',
         'brown': '#421e15',
         'dark-purple': '#20081c',
+        'text-grey': '#747474',
         'charcoal-black': '#0000006b',
       },
     },

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Image from '../assets/Images/Logo-Image.png'
-import Location from './Location'
+import SignUp from './SignUp';
 
 
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
         <div className="w-3/5 flex justify-between align-middle pl-20 relative ml-20">
           <input type="search" className='searchInput w-3/5 h-12 text-xl px-24 rounded-3xl focus:outline-none' placeholder='Search'/>
           <button className='bg-brown px-6 h-12 text-base rounded-full text-white font-semibold' onClick={handleClick}>Get started</button>
-          {showComponent && <Location />}
+          {showComponent && <SignUp/>}
         </div>
         </div>
     </header>
