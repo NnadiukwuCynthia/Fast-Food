@@ -20,6 +20,9 @@ export default {
         'text-grey': '#747474',
         'charcoal-black': '#0000006b',
       },
+      height:{
+        'height': '120vh'
+      }
     },
   },
   variants: {

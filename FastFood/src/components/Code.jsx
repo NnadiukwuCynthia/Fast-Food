@@ -20,7 +20,7 @@ const Code = () => {
       
       return (
         <div>
-          <select className='w-28 ml-5 countryList '>
+          <select className='w-32 ml-5 countryList h-9 rounded-md'>
             {countries.map(country => (
               <option  key={country.cca2} value={country.idd.root}>
                 {`${country.flag} ${country.name.common} ${country.idd.root}`}
